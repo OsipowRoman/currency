@@ -1,5 +1,5 @@
 import { AppWallet, codeCurrency, Currency, supportedCodes} from "./data";
-import type { typeCodeCurrency, ExchangeRates, Wallet, currencyResponce, currencyCodes } from "./types";
+import type { Wallet, currencyResponce, currencyCodes, ExchangeRates, typeCodeCurrency } from "./types";
 
 export function FakeFetchWallet(): Promise<Wallet[]> {
     return(
